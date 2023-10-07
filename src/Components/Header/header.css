@@ -1,0 +1,35 @@
+.header {
+    width: 100%;
+    background-color: rgba(35, 35, 35,0.5);
+    border-bottom: rgba(35, 35, 35,1) 2px solid;
+}
+.headerWrapper {
+    width: 80%;
+    padding: 0.5rem;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #EAEAEA;
+    font-size: 2rem;
+}
+
+
+
+li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0.7rem;
+    color: #cdcdcd;
+}
+
+li#quit {
+    background-color: rgba(35, 35, 35,1);
+    border-radius: 15px;
+    border: #cdcdcd 1px solid;
+    font-size: 1.2rem
+}
+
